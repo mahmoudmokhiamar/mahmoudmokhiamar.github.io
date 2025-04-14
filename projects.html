@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=1024, initial-scale=1.0" />
+  <title>Projects – Mahmoud Mokhiamar</title>
+  <style>
+    body {
+      font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #f9f9f9;
+      color: #333;
+    }
+
+    .container {
+      max-width: 900px;
+      margin: auto;
+      padding: 20px;
+      background: white;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.05);
+    }
+
+    .navbar {
+      background-color: #222;
+      overflow: hidden;
+      border-radius: 5px 5px 0 0;
+    }
+
+    .navbar a {
+      float: left;
+      display: block;
+      color: #fff;
+      text-align: center;
+      padding: 14px 20px;
+      text-decoration: none;
+    }
+
+    .navbar a:hover {
+      background-color: #ddd;
+      color: black;
+    }
+
+    h1 {
+      margin-top: 20px;
+    }
+
+    .project {
+      padding: 20px 0;
+      border-bottom: 1px solid #eee;
+    }
+
+    .project h2 {
+      margin-bottom: 5px;
+      font-size: 20px;
+      color: #1a4fb4;
+    }
+
+    .project small {
+      display: block;
+      margin-bottom: 10px;
+      color: #555;
+    }
+
+    ul {
+      padding-left: 20px;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+
+    <!-- Navbar -->
+    <div class="navbar">
+      <a href="index.html">Home</a>
+      <a href="publications.html">Publications</a>
+      <a href="projects.html">Projects</a>
+      <a href="contact.html">Contact</a>
+    </div>
+
+    <!-- Projects Content -->
+    <h1>Projects</h1>
+    
+    <div class="project">
+      <h2>Knowledge Graphs using LLM</h2>
+      <small>Python, Pandas, OCR, OpenAI, Mistral, Knowledge Graphs</small>
+      <ul>
+        <li>Preprocessed 1000+ unstructured recipe documents and PDFs using OCR, extracting and cleaning raw text.</li>
+        <li>Developed Python scripts to parse and standardize ingredient data into a structured format.</li>
+        <li>Converted structured ingredients into knowledge graphs using LLMs (GPT-4, Mistral).</li>
+        <li>Designed and optimized ETL pipelines, automating data flow and reducing processing time by 40%.</li>
+        <li>Explored graph-based data models to enhance organization, retrieval, and analytics.</li>
+      </ul>
+    </div>
+
+    <div class="project">
+      <h2>Real-Time ASL GPT</h2>
+      <small>Python, PyTorch, Pandas, MediaPipe, Neptune</small>
+      <ul>
+        <li>Preprocessed and visualized 200GB of American Sign Language (ASL) data.</li>
+        <li>Developed a SqueezeFormer-based recognition model with 89% normalized similarity score.</li>
+        <li>Integrated the model into a real-time system for seamless gesture recognition.</li>
+        <li>Designed interactive visualizations to interpret predictions and embeddings.</li>
+        <li>Built a full pipeline converting ASL gestures into queries using RAG (Retrieval-Augmented Generation).</li>
+        <li>
+          <a href="https://github.com/mahmoudmokhiamar/RealTime-WLASL" target="_blank">
+            View on GitHub
+          </a>
+        </li>
+      </ul>
+    </div>
+
+    <div class="project">
+      <h2>EEG Sleep Classification</h2>
+      <small>Transformers, Optuna, cGAN, DeltaEncoder</small>
+      <ul>
+        <li>Analyzed EEG data from the International Institute for Integrative Sleep Medicine (IIIS).</li>
+        <li>Applied generative models to address sleep stage class imbalance.</li>
+        <li>Built Transformer-based signal models to detect deep patterns.</li>
+        <li>Augmented datasets with synthetic data, boosting F1 score by 5–20%.</li>
+        <li>Used Optuna for automated hyperparameter tuning and resource optimization.</li>
+        <li>
+          <a href="https://github.com/mahmoudmokhiamar/IIIS_SLEEP_SqueezeFormer_updated" target="_blank">
+            View on GitHub
+          </a>
+        </li>
+      </ul>
+    </div>
+   
+    <div class="project">
+      <h2>Sentence Highlighter with BERT Embeddings</h2>
+      <small>Python, BERT, Transformers, NLTK, HTML, Cosine Similarity</small>
+      <ul>
+        <li>Built a sentence similarity visualizer using <strong>BERT embeddings</strong> and cosine similarity.</li>
+        <li>Processed and tokenized text from multiple `.txt` files using NLTK's <code>sent_tokenize</code>.</li>
+        <li>Converted sentences into BERT vectors using the <code>bert-base-uncased</code> model via Hugging Face Transformers.</li>
+        <li>Computed cosine similarities and generated a color-coded HTML visualization of sentence relationships.</li>
+        <li>Fully customizable: supports model selection, color scheme adjustment, and sentence-level analysis.</li>
+        <li>
+          <a href="https://github.com/mahmoudmokhiamar/SentenceHighlighter101" target="_blank">
+            View on GitHub
+          </a>
+        </li>
+      </ul>
+    </div>
+
+    <div class="project">
+      <h2>Cloud Deployment Project</h2>
+      <small>Docker, Nginx, Kubernetes</small>
+      <ul>
+        <li>Deployed a full-stack application using Docker and Nginx, managed by Kubernetes.</li>
+        <li>Configured Ingress and NodePort services for secure public access.</li>
+        <li>Experienced real-world DevOps responsibilities in a cloud engineering environment.</li>
+        <li>Awarded <strong>Best Internship Project</strong> at Orange Business.</li>
+        <li>
+          <a href="https://github.com/mahmoudmokhiamar/Orange-Summer-2023-Internship/tree/main" target="_blank">
+            View on GitHub
+          </a>
+        </li>
+      </ul>
+    </div>
+
+  </div>
+</body>
+</html>
