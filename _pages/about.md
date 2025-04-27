@@ -2,7 +2,10 @@
 layout: about
 title: about
 permalink: /
-subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Motto. Etc.
+# subtitle: >
+#   <a href='#'>Ex RA @ University of Tsukuba, Ex DS intern @ Dell Technologies, Ex Cloud Intern @ Orange Business</a>. 
+#   <p>Based in Alexandria, Egypt</p>. 
+#   Motto: "Pushing the boundaries of intelligence, guided by curiosity and skepticism."
 
 profile:
   align: right
@@ -25,7 +28,7 @@ latest_posts:
   scrollable: true # adds a vertical scroll bar if there are more than 3 new posts items
   limit: 3 # leave blank to include all the blog posts
 ---
-I am a senior Computer Science student at Egypt-Japan University of Science and Technology (E-JUST), with research experience at the University of Tsukuba in NeuroInformatics and Data Engineering.
+I am a senior Computer Science student at Egypt-Japan University of Science and Technology (E-JUST), with research experience at the University of Tsukuba in NeuroInformatics and Data Engineering, and industrial experience from previous internships at Dell Technologies, and Orange Business.
 
 My key interests include Natural Language Processing (NLP), NeuroInformatics, Data Engineering, and Large Language Models (LLMs).
 
