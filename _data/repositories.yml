@@ -3,8 +3,8 @@ github_users:
 
 repo_description_lines_max: 2
 
-github_repos:
-  - name: "mahmoudmokhiamar.github.io"
-    description: "My personal website and blog, built with Jekyll."
-    url: "mahmoudmokhiamar.github.io"
+# github_repos:
+#   - name: "mahmoudmokhiamar.github.io"
+#     description: "My personal website and blog, built with Jekyll."
+#     url: "mahmoudmokhiamar.github.io"
   
