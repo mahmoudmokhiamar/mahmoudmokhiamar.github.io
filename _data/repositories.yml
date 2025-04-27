@@ -1,14 +1,10 @@
 github_users:
-  - torvalds
-  - alshedivat
+  - mahmoudmokhiamar
 
 repo_description_lines_max: 2
 
 github_repos:
-  - alshedivat/al-folio
-  - jekyll/jekyll
-  - twbs/bootstrap
-  - jquery/jquery
-  - FortAwesome/Font-Awesome
-  - mathjax/MathJax
-  - jpswalsh/academicons
+  - name: "mahmoudmokhiamar.github.io"
+    description: "My personal website and blog, built with Jekyll."
+    url: "mahmoudmokhiamar.github.io"
+  
