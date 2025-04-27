@@ -1,200 +1,357 @@
 {
-  "basics": {
-    "name": "Albert Einstein",
-    "label": "Scientist",
-    "image": "",
-    "email": "albert@einstein.de",
-    "phone": "(912) 123-4567",
-    "url": "https://alshedivat.github.io/al-folio/",
-    "summary": "A German-born theoretical physicist, widely ranked among the greatest and most influential scientists of all time",
-    "location": {
-      "address": "2712 Broadway St",
-      "postalCode": "CA 94115",
-      "city": "San Francisco",
-      "countryCode": "US",
-      "region": "California"
+    "basics": {
+      "name": "Mahmoud Mokhiamar",
+      "label": "AI Researcher and Data Engineer",
+      "image": "",
+      "email": "mahmoud.mokhiamar@ejust.edu.eg",
+      "phone": "+20 1029449370",
+      "url": "https://mahmoudmokhiamar.github.io",
+      "summary": "Senior Computer Science student at E-JUST with research experience in NeuroInformatics, Data Engineering, and Natural Language Processing. Passionate about building scalable AI systems, Natural Language Processing, interpretable models, and NeuroInformatics.",
+      "location": {
+        "address": "",
+        "postalCode": "",
+        "city": "Alexandria",
+        "countryCode": "EG",
+        "region": "Egypt"
+      },
+      "profiles": [
+        {
+          "network": "GitHub",
+          "username": "mahmoudmokhiamar",
+          "url": "https://github.com/mahmoudmokhiamar"
+        },
+        {
+          "network": "LinkedIn",
+          "username": "mahmoud-mokhiamar",
+          "url": "https://www.linkedin.com/in/mahmoud-mokhiamar/"
+        }
+      ]
     },
-    "profiles": [
+    "work": [
       {
-        "network": "Twitter",
-        "username": "AlbertEinstein",
-        "url": "https://twitter.com/AlbertEinstein"
+        "name": "University of Tsukuba, Japan",
+        "position": "Research Assistant – Knowledge and Data Engineering Lab",
+        "url": "",
+        "startDate": "2024-11-01",
+        "endDate": "2025-03-01",
+        "summary": "Developed pipelines for transforming unstructured text into structured knowledge graphs using LLMs, improving retrieval efficiency by 40%.",
+        "highlights": [
+          "Built scalable ETL pipelines for PDF-to-graph transformation.",
+          "Optimized LLM parsing strategies to standardize diverse recipe formats."
+        ]
+      },
+      {
+        "name": "University of Tsukuba, Japan",
+        "position": "Undergraduate Research Assistant – NeuroInformatics Lab",
+        "url": "",
+        "startDate": "2024-09-01",
+        "endDate": "2025-03-01",
+        "summary": "Analyzed EEG data to improve sleep stage classification using deep learning and generative data augmentation techniques.",
+        "highlights": [
+          "Achieved 75% F1 score with Transformer-based models on EEG signals.",
+          "Used DeltaEncoder and cGAN for balancing highly imbalanced sleep data."
+        ]
+      },
+      {
+        "name": "Dell Technologies, Egypt",
+        "position": "Data Science Intern",
+        "url": "",
+        "startDate": "2024-08-01",
+        "endDate": "2024-09-01",
+        "summary": "Developed CNN models for dementia MRI classification and applied Grad-CAM for model interpretability.",
+        "highlights": [
+          "Achieved 92% F1 Score on multiclass dementia classification task.",
+          "Highlighted key brain regions using Explainable AI (Grad-CAM)."
+        ]
+      },
+      {
+        "name": "Orange Business, Egypt",
+        "position": "Public Cloud Intern",
+        "url": "",
+        "startDate": "2023-07-01",
+        "endDate": "2023-08-01",
+        "summary": "Built cloud-native deployments using Docker, Nginx, and Kubernetes with load balancing and HA configurations.",
+        "highlights": [
+          "Awarded Best Internship Project.",
+          "Deployed full-stack application to Kubernetes with public Ingress."
+        ]
       }
-    ]
+    ],
+    "education": [
+      {
+        "institution": "Egypt-Japan University of Science and Technology (E-JUST)",
+        "location": "Alexandria, Egypt",
+        "url": "https://www.ejust.edu.eg",
+        "area": "Computer Science (Artificial Intelligence and Data Science)",
+        "studyType": "Bachelor of Science",
+        "startDate": "2021-09-01",
+        "endDate": "2025-06-01",
+        "score": "3.93/4.0",
+        "courses": [
+            "Probabilty and Statistics",
+            "Linear Algebra",
+            "Discrete Mathematics",
+            "Calculus",
+            "Data Science",
+            "Data Mining",
+            "Computer Vision",
+            "Machine Learning",
+            "Natural Language Processing"
+        ]
+      },
+      {
+        "institution": "University of Tsukuba",
+        "location": "Tsukuba, Japan",
+        "url": "https://www.tsukuba.ac.jp/en/",
+        "area": "NeuroInformatics and Data Engineering",
+        "studyType": "Exchange/Research Program",
+        "startDate": "2024-09-01",
+        "endDate": "2025-03-01",
+        "score": "",
+        "courses": []
+      }
+    ],
+    "awards": [
+      {
+        "title": "Best Internship Project",
+        "date": "2023-08-01",
+        "awarder": "Orange Business",
+        "url": "",
+        "summary": "Awarded for outstanding cloud deployment project integrating Docker, Kubernetes, and public cloud architectures."
+      },
+      {
+        "title": "Best Presenter",
+        "date": "2023-08-01",
+        "awarder": "Orange Business",
+        "url": "",
+        "summary": "Recognized for excellent technical presentation and communication skills during Orange Business internship."
+      }
+    ],
+    "certificates": [
+      {
+        "name": "Machine Learning",
+        "date": "2023-12-01",
+        "issuer": "Stanford Online",
+        "url": "",
+        "icon": ""
+      },
+      {
+        "name": "Deep Learning with PyTorch",
+        "date": "2023-09-01",
+        "issuer": "DataCamp",
+        "url": "",
+        "icon": ""
+      },
+      {
+        "name": "OOP with Python",
+        "date": "2023-07-01",
+        "issuer": "DataCamp",
+        "url": "",
+        "icon": ""
+      },
+      {
+        "name": "Database Programming with SQL",
+        "date": "2023-06-01",
+        "issuer": "Oracle Academy",
+        "url": "",
+        "icon": ""
+      }
+    ],
+    "skills": [
+        {
+            "name": "Programming & Frameworks",
+            "level": "Advanced",
+            "icon": "fa-solid fa-code",
+            "keywords": [
+            "Python",
+            "SQL",
+            "PySpark",
+            "C++",
+            "PyTorch",
+            "Scikit-learn",
+            "Pandas",
+            "Seaborn",
+            "Matplotlib",
+            "NumPy",
+            "TensorBoard",
+            "Git"
+            ]
+        },
+        {
+            "name": "Machine Learning & AI",
+            "level": "Advanced",
+            "icon": "fa-solid fa-brain",
+            "keywords": [
+            "Deep Learning",
+            "Transformer Models",
+            "CNNs",
+            "Generative Models",
+            "Explainable AI (Grad-CAM)"
+            ]
+        },
+        {
+            "name": "Data Engineering & Big Data",
+            "level": "Advanced",
+            "icon": "fa-solid fa-database",
+            "keywords": [
+            "ETL Pipelines",
+            "Big Data Systems",
+            "Data Lakes",
+            "Data Warehouses",
+            "Data Integration Services",
+            "Microsoft Fabric",
+            "PySpark"
+            ]
+        },
+        {
+            "name": "Natural Language Processing (NLP)",
+            "level": "Advanced",
+            "icon": "fa-solid fa-language",
+            "keywords": [
+            "Retrieval-Augmented Generation (RAG)",
+            "Knowledge Graph Construction",
+            "Semantic Search",
+            "LLM Fine-tuning"
+            ]
+        },
+        {
+            "name": "Cloud & DevOps",
+            "level": "Intermediate",
+            "icon": "fa-solid fa-cloud",
+            "keywords": [
+            "Docker",
+            "Kubernetes",
+            "Nginx",
+            "Cloud Deployment",
+            "Load Balancing"
+            ]
+        },
+        {
+            "name": "Data Visualization & Reporting",
+            "level": "Advanced",
+            "icon": "fa-solid fa-chart-line",
+            "keywords": [
+            "Power BI",
+            "Tableau",
+            "Excel"
+            ]
+        }
+        ],
+    "languages": [
+      {
+        "language": "Arabic",
+        "fluency": "Native Speaker",
+        "icon": ""
+      },
+      {
+        "language": "English",
+        "fluency": "Fluent",
+        "icon": ""
+      },
+      {
+        "language": "French",
+        "fluency": "Fluent",
+        "icon": ""
+      }
+    ],
+   "interests": [
+    {
+        "name": "Natural Language Processing (NLP)",
+        "icon": "fa-solid fa-language",
+        "keywords": [
+        "Misinformation Generation and Detection",
+        "Model Bias Analysis",
+        "Retrieval-Augmented Generation (RAG)",
+        "Knowledge Extraction from Text"
+        ]
+    },
+    {
+        "name": "NeuroInformatics",
+        "icon": "fa-solid fa-brain",
+        "keywords": [
+        "EEG Analysis",
+        "MRI/fMRI Brain Imaging Analysis",
+        "Clinical Diagnosis with Explainable AI",
+        "Medical Data Augmentation and Modeling"
+        ]
+    },
+    {
+        "name": "Data Engineering",
+        "icon": "fa-solid fa-database",
+        "keywords": [
+        "Knowledge Graph Construction",
+        "Efficient ETL and Data Pipelines",
+        "Graph Algorithms and Mining",
+        "Big Data Integration and Processing"
+        ]
+    }
+    ],
+    "projects": [
+  {
+    "name": "Fashion Products Chatbot",
+    "summary": "Semantic search chatbot for fashion product recommendation using FAISS, LangChain, and Hugging Face Transformers.",
+    "highlights": [
+      "Deployed a FastAPI service for product retrieval.",
+      "Embedded and indexed fashion product descriptions."
+    ],
+    "startDate": "2025-01-01",
+    "endDate": "2025-01-01",
+    "url": "https://github.com/mahmoudmokhiamar/LocalBrands-ChatBot"
   },
-  "work": [
-    {
-      "name": "Institute for Advanced Study, Princeton University",
-      "position": "Professor of Theoretical Physics",
-      "url": "https://example.com",
-      "startDate": "1933-01-01",
-      "endDate": "1955-01-01",
-      "summary": "Teaching at Palmer Physical Laboratory (now 302 Frist Campus Center). While not a professor at Princeton, I associated with the physics professors and continued to give lectures on campus.",
-      "highlights": ["Relativity"]
-    }
-  ],
-  "volunteer": [
-    {
-      "organization": "People's Climate March",
-      "location": "Zurich, Switzerland",
-      "position": "Lead Organizer",
-      "url": "https://example.com",
-      "startDate": "2014-04-01",
-      "endDate": "2015-07-01",
-      "summary": "Lead organizer for the New York City branch of the People's Climate March, the largest climate march in history.",
-      "highlights": ["Awarded 'Climate Hero' award by Greenpeace for my efforts organizing the march.", "Men of the year 2014 by Time magazine"]
-    }
-  ],
-  "education": [
-    {
-      "institution": "University of Zurich, Zurich, Switzerland",
-      "location": "Zurich, Switzerland",
-      "url": "https://www.uzh.ch/",
-      "area": "Software Development",
-      "studyType": "PhD",
-      "startDate": "1905-01-01",
-      "endDate": "1905-01-01",
-      "score": "10",
-      "courses": ["Theory of Relativity"]
-    }
-  ],
-  "awards": [
-    {
-      "title": "Nobel Prize in Physics",
-      "date": "1921-11-01",
-      "awarder": "Royal Swedish Academy of Sciences",
-      "url": "https://www.nobelprize.org/prizes/physics/1921/einstein/biographical/",
-      "summary": "The Nobel Prizes are five separate prizes that, according to Alfred Nobel's will of 1895, are awarded to 'those who, during the preceding year, have conferred the greatest benefit to humankind.'"
-    }
-  ],
-  "certificates": [
-    {
-      "name": "Machine Learning",
-      "date": "2018-01-01",
-      "issuer": "Stanford University",
-      "url": "https://example.com",
-      "icon": "fa-solid fa-location-dot"
-    },
-    {
-      "name": "Quantum Computing",
-      "date": "2018-01-01",
-      "issuer": "Stanford University",
-      "url": "https://example.com",
-      "icon": "fa-solid fa-tag"
-    },
-    {
-      "name": "Quantum Information",
-      "date": "2018-01-01",
-      "issuer": "Stanford University",
-      "url": "https://example.com",
-      "icon": "fa-solid fa-envelope"
-    },
-    {
-      "name": "Quantum Cryptography",
-      "date": "2018-01-01",
-      "issuer": "Stanford University",
-      "url": "https://example.com",
-      "icon": "fa-solid fa-hashtag"
-    },
-    {
-      "name": "Quantum Communication",
-      "date": "2018-01-01",
-      "issuer": "Stanford University",
-      "url": "https://example.com",
-      "icon": "fa-solid fa-calendar"
-    },
-    {
-      "name": "Quantum Teleportation",
-      "date": "2018-01-01",
-      "issuer": "Stanford University",
-      "url": "https://example.com",
-      "icon": "fa-solid fa-clipboard-check"
-    }
-  ],
-  "publications": [
-    {
-      "name": "Zur Elektrody/namik bewegter Körper",
-      "publisher": "Annalen der Physik",
-      "releaseDate": "1905-06-30",
-      "url": "https://en.wikisource.org/wiki/Translation:On_the_Electrodynamics_of_Moving_Bodies",
-      "summary": "It concerned an interpretation of the Michelson–Morley experiment and the properties of light and time. Special relativity incorporates the principle that the speed of light is the same for all inertial observers regardless of the state of motion of the source."
-    },
-    {
-      "name": "Über einen die Erzeugung und Verwandlung des Lichtes betreffenden heuristischen Gesichtspunkt",
-      "publisher": "Annalen der Physik",
-      "releaseDate": "1905-03-18",
-      "url": "https://de.wikisource.org/wiki/Über_einen_die_Erzeugung_und_Verwandlung_des_Lichtes_betreffenden_heuristischen_Gesichtspunkt",
-      "summary": "In the second paper, he applied the quantum theory to light to explain the photoelectric effect. In particular, he used the idea of light quanta (photons) to explain experimental results, but stressed the importance of the experimental results. The importance of his work on the photoelectric effect earned him the Nobel Prize in Physics in 1921."
-    },
-    {
-      "name": "Die Grundlage der allgemeinen Relativitätstheorie",
-      "publisher": "Annalen der Physik",
-      "releaseDate": "1916-03-20",
-      "url": "https://de.wikisource.org/wiki/Die_Grundlage_der_allgemeinen_Relativitätstheorie",
-      "summary": "The publication of the theory of general relativity made him internationally famous. He was professor of physics at the universities of Zurich (1909–1911) and Prague (1911–1912), before he returned to ETH Zurich (1912–1914)."
-    }
-  ],
-  "skills": [
-    {
-      "name": "Physics",
-      "level": "Master",
-      "icon": "fa-solid fa-hashtag",
-      "keywords": [
-        "Quantum Mechanics",
-        "Quantum Computing",
-        "Quantum Information",
-        "Quantum Cryptography",
-        "Quantum Communication",
-        "Quantum Teleportation"
-      ]
-    }
-  ],
-  "languages": [
-    {
-      "language": "German",
-      "fluency": "Native speaker",
-      "icon": ""
-    },
-    {
-      "language": "English",
-      "fluency": "Fluent",
-      "icon": ""
-    }
-  ],
-  "interests": [
-    {
-      "name": "Physics",
-      "icon": "fa-solid fa-tag",
-      "keywords": [
-        "Quantum Mechanics",
-        "Quantum Computing",
-        "Quantum Information",
-        "Quantum Cryptography",
-        "Quantum Communication",
-        "Quantum Teleportation"
-      ]
-    }
-  ],
-  "references": [
-    {
-      "name": "Professor John Doe",
-      "icon": "fa-solid fa-laptop",
-      "reference": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam condimentum, diam quis convallis euismod, arcu mi ullamcorper lorem, a vestibulum nunc magna at sem. Sed in risus ac felis varius blandit. D"
-    },
-    {
-      "name": "Professor John Doe",
-      "icon": "fa-solid fa-thumbtack",
-      "reference": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam condimentum, diam quis convallis euismod, arcu mi ullamcorper lorem, a vestibulum nunc magna at sem. Sed in risus ac felis varius blandit. D"
-    }
-  ],
-  "projects": [
-    {
-      "name": "Quantum Computing",
-      "summary": "Quantum computing is the use of quantum-mechanical phenomena such as superposition and entanglement to perform computation. Computers that perform quantum computations are known as quantum computers.",
-      "highlights": ["Quantum Teleportation", "Quantum Cryptography"],
-      "startDate": "2018-01-01",
-      "endDate": "2018-01-01",
-      "url": "https://example.com"
-    }
-  ]
-}
+  {
+    "name": "Real-Time ASL GPT",
+    "summary": "Built a real-time American Sign Language recognition system integrated with Retrieval-Augmented Generation (RAG).",
+    "highlights": [
+      "Trained SqueezeFormer model on 200GB ASL video data.",
+      "Real-time low-latency gesture recognition pipeline."
+    ],
+    "startDate": "2025-01-01",
+    "endDate": "2025-01-01",
+    "url": "https://github.com/mahmoudmokhiamar/RealTime-WLASL"
+  },
+  {
+    "name": "EEG Sleep Classification",
+    "summary": "Transformer-based deep learning model for EEG sleep stage classification, using cGAN and DeltaEncoder for data augmentation.",
+    "highlights": [
+      "Addressed class imbalance using generative models.",
+      "Achieved 75% F1 score across multiple sleep stages."
+    ],
+    "startDate": "2025-01-01",
+    "endDate": "2025-01-01",
+    "url": "https://github.com/mahmoudmokhiamar/IIIS_SLEEP_SqueezeFormer_updated"
+  },
+  {
+    "name": "Alzheimer-XAI",
+    "summary": "Explainable AI project classifying dementia stages using CNNs with Grad-CAM visualization for clinical interpretability.",
+    "highlights": [
+      "Achieved 92% F1 Score in dementia classification.",
+      "Generated Grad-CAM maps highlighting critical brain regions."
+    ],
+    "startDate": "2024-08-01",
+    "endDate": "2024-09-01",
+    "url": "https://github.com/mahmoudmokhiamar/Alzheimer-XAI"
+  },
+  {
+    "name": "Sparse Supervision for Remote Sensing Segmentation",
+    "summary": "DeepLabV3+ based semantic segmentation for satellite images with only 1% labeled data using Partial Cross-Entropy Loss.",
+    "highlights": [
+      "Achieved 0.43 mIoU under extreme label sparsity.",
+      "Evaluated different label densities (1%, 5%, 10%)."
+    ],
+    "startDate": "2025-01-01",
+    "endDate": "2025-01-01",
+    "url": "https://github.com/mahmoudmokhiamar/Sparse-Remote-Sensing-Images-Semantic-Segmentation"
+  },
+  {
+    "name": "Knowledge Graphs using LLM",
+    "summary": "Automated extraction and transformation of unstructured text (recipes) into knowledge graphs using LLMs like GPT-4 and Mistral.",
+    "highlights": [
+      "Built end-to-end ETL pipelines reducing processing time by 40%.",
+      "Standardized and structured 1000+ documents into graph format."
+    ],
+    "startDate": "2025-01-01",
+    "endDate": "2025-01-01",
+    "url": ""
+  }
+]
+  }
