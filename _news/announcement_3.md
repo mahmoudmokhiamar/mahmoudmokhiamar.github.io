@@ -1,8 +1,7 @@
 ---
 layout: post
-date: 2024-11-06 19:00:00+0300
+date: 2025-02-26 19:00:00+0300
 inline: true
-related_posts: false
+related_posts: true
 ---
-
-Paper moved to revision stage in Knowledge-Based Systems (Q1).
+Completed research assistantship at [Knowledge and Data Engineering Lab](https://www.kde.cs.tsukuba.ac.jp/en/index.php)

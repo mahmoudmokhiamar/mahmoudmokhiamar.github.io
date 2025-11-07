@@ -1,8 +1,13 @@
 ---
 layout: post
-date: 2024-08-10 15:59:00-0400
+date: 2025-04-27 19:00:00+0300
 inline: true
 related_posts: false
 ---
 
-Submitted first-author paper on EEG+Blockchain fusion to Knowledge-Based Systems (Q1).
+🚀 Excited to launch my new academic portfolio!
+
+Here you'll find my research experiences, projects, publications, and technical skills in data science, machine learning, and AI.  
+Feel free to explore, connect, and collaborate!
+
+#ComputerScience #AI #MachineLearning #DataScience
