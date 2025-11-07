@@ -30,14 +30,7 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/cv/";
           },
-        },{id: "dropdown-bookshelf",
-              title: "bookshelf",
-              description: "",
-              section: "Dropdown",
-              handler: () => {
-                window.location.href = "/books/";
-              },
-            },{id: "dropdown-papers",
+        },{id: "dropdown-papers",
               title: "papers",
               description: "",
               section: "Dropdown",
@@ -407,13 +400,7 @@ ninja.data = [{
             window.location.href = "/blog/2015/formatting-and-links/";
           
         },
-      },{id: "news-submitted-first-author-paper-on-eeg-blockchain-fusion-to-knowledge-based-systems-q1",
-          title: 'Submitted first-author paper on EEG+Blockchain fusion to Knowledge-Based Systems (Q1).',
-          description: "",
-          section: "News",},{id: "news-paper-moved-to-revision-stage-in-knowledge-based-systems-q1",
-          title: 'Paper moved to revision stage in Knowledge-Based Systems (Q1).',
-          description: "",
-          section: "News",},{id: "news-completed-research-assistantship-at-neuroinformatics-lab",
+      },{id: "news-completed-research-assistantship-at-neuroinformatics-lab",
           title: 'Completed research assistantship at NeuroInformatics Lab',
           description: "",
           section: "News",},{id: "news-completed-research-assistantship-at-knowledge-and-data-engineering-lab",
@@ -424,6 +411,9 @@ ninja.data = [{
           description: "",
           section: "News",},{id: "news-happy-to-share-that-my-first-authored-paper-blockchain-integrated-multi-modal-lstm-cnn-fusion-for-high-precision-epileptic-seizure-detection-from-eeg-signals-has-been-accepted-for-publication-in-the-prestigious-peer-reviewed-journal-knowledge-based-systems-q1-impact-factor-7-2-doi",
           title: '🎉 Happy to share that my first-authored paper, “Blockchain-integrated multi-modal LSTM-CNN fusion for...',
+          description: "",
+          section: "News",},{id: "news-happy-to-share-that-i-joined-novomind-as-an-ai-engineer",
+          title: 'Happy to share that I joined Novomind as an AI engineer.',
           description: "",
           section: "News",},{id: "projects-fashion-products-chatbot",
           title: 'Fashion Products Chatbot',
