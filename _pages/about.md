@@ -28,11 +28,15 @@ latest_posts:
   scrollable: true # adds a vertical scroll bar if there are more than 3 new posts items
   limit: 3 # leave blank to include all the blog posts
 ---
-I am a senior Computer Science student at Egypt-Japan University of Science and Technology (E-JUST), with research experience at the University of Tsukuba in NeuroInformatics and Data Engineering, and industrial experience from previous internships at Dell Technologies, and Orange Business.
+I am an AI Engineer and Researcher currently working at Novomind as part of the AI team. My experience bridges both industrial R&D and academic research, having completed research assistantships at Tsukuba University in Neuroinformatics and Data Engineering, as well as internships at Dell Technologies and Orange Business.
 
-My key interests include Natural Language Processing (NLP), NeuroInformatics, Data Engineering, and Large Language Models (LLMs).
+Currently, I am expanding my industrial experience by developing highly available, scalable, end-to-end enterprise AI applications that bring cutting-edge research into real-world deployment.
 
-I am actively seeking research and professional opportunities to apply my skills and contribute to impactful projects.
+My core interests lie in Natural Language Processing (NLP), Neuroinformatics, Data Engineering, and Large Language Models (LLMs) — particularly in exploring how intelligent systems can enhance decision-making and human-AI interaction.
+
+I’m also passionate about mentorship and knowledge sharing — feel free to reach out if you’d like to discuss ideas, research collaborations, or AI-driven solutions!
+
+<!-- I am actively seeking research and professional opportunities to apply my skills and contribute to impactful projects. -->
 
 Feel free to connect with me via [LinkedIn](https://www.linkedin.com/in/mahmoud-mokhiamar/) or check my projects on [GitHub](https://github.com/mahmoudmokhiamar).
 
